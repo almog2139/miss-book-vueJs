@@ -1,0 +1,24 @@
+.book-filter{
+    display: flex;
+    justify-content: center;
+    padding: 0.4em;
+    margin: 0.5em auto 0.5em;
+    text-align: center;
+  
+    border-radius: 2em;
+    width: 50%;
+    justify-content: space-around;
+     input{
+        border: 2px solid grey;
+     }
+}
+@media (max-width: 650px) {
+
+    .book-filter{
+        display: flex;
+        flex-direction: column;
+        background: none;
+
+    }
+    
+}

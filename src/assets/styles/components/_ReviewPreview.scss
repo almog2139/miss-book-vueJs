@@ -1,0 +1,9 @@
+.review-preview {
+    margin: 20px 0;
+    > * {
+        display: block;
+        margin-block-end: 5px;
+    }
+  border-bottom: 1px solid grey;
+  text-align: -webkit-auto;
+}

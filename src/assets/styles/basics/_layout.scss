@@ -1,0 +1,116 @@
+.main-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+    background-color: #202124;
+    height: 10vh;
+    color: white;
+    display: grid;
+    // position: fixed;
+    // top: 0;
+    // right: 0;
+    // left: 0;
+    a{
+        padding: 1.7em;
+     transition: padding .3s;
+        :first-child{
+            margin-right: 15px;
+        }
+        color: #8E9E9E;
+        &:hover{
+            border-bottom: 3px solid #b939b9;
+            color: #b939b9 !important;
+        }
+    }
+    grid-template-columns:
+        minmax(0.6rem, 1fr)
+        minmax(auto, $normal-breakpoint)
+        minmax(0.6rem, 1fr);
+        
+        & > * {
+            grid-column: 2;
+        }
+        
+        @include for-narrow-layout {
+            // max-width: 460px;
+            grid-template-columns:
+            minmax(0.6rem, 1fr)
+            minmax(auto, $mobile-breakpoint)
+            minmax(0.6rem, 1fr);
+            
+        }
+        
+        @include for-normal-layout {
+           
+            // max-width: 700px;
+            grid-template-columns:
+            minmax(0.6rem, 1fr)
+            minmax(auto, $narrow-breakpoint)
+            minmax(0.6rem, 1fr);
+        }
+        
+        @include for-wide-layout {
+           
+            
+            // max-width: 1400px;
+            grid-template-columns:
+            minmax(0.1rem, 1fr)
+            minmax(auto, $normal-breakpoint)
+            minmax(0.1rem, 1fr);
+        }
+    }
+    
+    
+    // Main Header Layout
+    
+    .card-continer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    align-content: center;
+    justify-items: center;
+    margin: auto;
+}
+.card-grid {
+  
+    padding: 12px;
+    text-align: center;
+    // border-radius: 20px;
+    overflow: hidden;
+    // background-color: #fff;
+    width: 100%;
+    height: 100%;
+    // transition: all .2s ease-out;
+    box-shadow: 0 2px 43px -4px #00000030;
+    transition: transform 0.3s;
+    display: inline-block;
+    vertical-align: top;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        .active-btn{
+            display: inline-block;
+           a{
+               color: black !important;
+           }
+        }
+    }
+    a{
+    
+         text-decoration: none;
+        color: black;
+    }
+    .active-btn{
+        display: none;
+    }
+}
+.logo{
+    h1{
+
+        font-family: reggae;
+    }
+}

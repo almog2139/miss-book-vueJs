@@ -1,0 +1,29 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/typography.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+
+// // Basics
+@import "basics/helpers.scss";
+@import "basics/animations.scss";
+@import "basics/base.scss";
+@import "basics/layout.scss";
+@import "basics/buttons.scss";
+ 
+// div{
+//     background-color: blue;
+// }
+
+// Components
+@import "components/BookDeatils.scss";
+@import "components/BookFilter.scss";
+@import "components/About.scss";
+@import "components/UserMsg.scss";
+@import "components/Home.scss";
+@import "components/ReviewModal.scss";
+@import "components/ReviewPreview.scss";
+@import "components/BookAdd.scss";
+@import "components/Colors.scss";
+@import "components/AppHeader.scss";
+
