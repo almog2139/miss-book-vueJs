@@ -1,5 +1,5 @@
 # Miss Book - Book Library Demo based on Vue.js
-
+URL:https://almog2139.github.io/miss-book-vueJs/#/
 **Miss Book** is a demo website showcasing a book library. Built with **Vue.js**, the site allows users to browse through books, view book details, and add books to their favorites list.
 
 ## Features
@@ -15,7 +15,7 @@
    ```bash
    git clone https://github.com/almog2139/miss-book-vueJs.git
 
-   link to the site:https://almog2139.github.io/miss-book-vueJs/#/
+   
 
 
 ![Screenshot](https://github.com/user-attachments/assets/aa0e57e7-3d85-4afe-9ab0-de4cd0cf2bdb)
